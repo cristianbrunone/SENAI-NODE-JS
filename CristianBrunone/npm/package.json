@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "moment": "^2.30.1",
+    "superheroes": "^3.0.0"
+  },
+  "name": "npm",
+  "version": "1.0.0",
+  "main": "npm_package.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
