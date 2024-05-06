@@ -30,6 +30,8 @@ Esta documentação descreve as rotas disponíveis na API para interação com o
 
 ![Captura de Tela Principal](https://github.com/cristianbrunone/SENAI-NODE-JS/blob/main/CristianBrunone/ListaDeGames/images/rotas2.PNG)
 
+![Captura de Tela Principal](https://github.com/cristianbrunone/SENAI-NODE-JS/blob/main/CristianBrunone/ListaDeGames/images/rotas3.PNG)
+
 
 ## Exemplo de Uso
 
