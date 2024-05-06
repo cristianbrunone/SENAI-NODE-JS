@@ -24,7 +24,11 @@ Esta documentação descreve as rotas disponíveis na API para interação com o
   Atualiza um jogo existente. Substitua `{id}` pelo ID do jogo desejado. Os IDs disponíveis são 5, 6, 7, 8, 9 e 10.
 
 ## Prints da tela
+![Captura de Tela Principal](https://github.com/cristianbrunone/SENAI-NODE-JS/blob/main/CristianBrunone/ListaDeGames/images/rotas.PNG)
 
+![Captura de Tela Principal](https://github.com/cristianbrunone/SENAI-NODE-JS/blob/main/CristianBrunone/ListaDeGames/images/rotas1.PNG)
+
+![Captura de Tela Principal](https://github.com/cristianbrunone/SENAI-NODE-JS/blob/main/CristianBrunone/ListaDeGames/images/rotas2.PNG)
 
 
 ## Exemplo de Uso
