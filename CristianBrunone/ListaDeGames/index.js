@@ -8,6 +8,18 @@ let games = [
     {title: "COD", studio: "Activision", price: 200},
     {title: "Minecraft", studio: "Mojang", price: 80},
     {title: "Halo", studio: "Microsoft", price: 90},
+    {tilte: "The Witcher 3: Wild Hunt", studio: "CD Projekt Red", price: 60},
+    {title: "Assassin's Creed Valhalla", studio: "Ubisoft", price: 50},
+    {title: "Red Dead Redemption2", studio: "EA Sports", price: 60},
+    {title: "Overwatch", studio: "Blizzard", price: 40},
+    {title: "Cyberpunk 2077", studio: "CD Projekt Red", price : 45},
+    {title: "Fortnite", studio:"Epic Games", price: 50},
+    {title: "League of Legends", studio: "Riot Games", price: 45},
+    {title: "GTA V", studio: "Rockstar Games", price: 30},
+    {title: "Final Fantasy XIV", studio: " Square Enix", price: 40}
+
+
+
 ]
 
 const PORT = 3080; 
