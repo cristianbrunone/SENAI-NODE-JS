@@ -8,9 +8,6 @@ let games = [
     {title: "COD", studio: "Activision", price: 200},
     {title: "Minecraft", studio: "Mojang", price: 80},
     {title: "Halo", studio: "Microsoft", price: 90},
-    {title: "Batman", studio: "EA Sports", price: 90},
-    {title: "Spiderman", studio: "Marvel", price: 80},
-    {title: "Justice League", studio: "DC", price: 70},
 ]
 
 const PORT = 3080; 
@@ -39,4 +36,15 @@ app.post("/novogame", (req, res) => {
     games.push(newGame);
 
     res.send("OK");
+});
+
+app.put('/novogame/:index', (req, res) => {
+    const { index } = req.params;
+    let title = req.body.title;
+    let studio = req.body.studio;
+    let price = req.body.price;
+
+    games[index] = { title, studio, price };
+
+    return res.json(games);
 });
