@@ -32,6 +32,19 @@ Esta documentação descreve as rotas disponíveis na API para interação com o
 
 ![Captura de Tela Principal](https://github.com/cristianbrunone/SENAI-NODE-JS/blob/main/CristianBrunone/ListaDeGames/images/rotas3.PNG)
 
+## 0T 08 Arquivos deletados
+
+![Captura de Tela Principal](https://github.com/cristianbrunone/SENAI-NODE-JS/blob/main/CristianBrunone/ListaDeGames/images/rotas4.PNG)
+
+![Captura de Tela Principal](https://github.com/cristianbrunone/SENAI-NODE-JS/blob/main/CristianBrunone/ListaDeGames/images/rotas5.PNG)
+
+![Captura de Tela Principal](https://github.com/cristianbrunone/SENAI-NODE-JS/blob/main/CristianBrunone/ListaDeGames/images/rotas6.PNG)
+
+![Captura de Tela Principal](https://github.com/cristianbrunone/SENAI-NODE-JS/blob/main/CristianBrunone/ListaDeGames/images/rotas7.PNG)
+
+![Captura de Tela Principal](https://github.com/cristianbrunone/SENAI-NODE-JS/blob/main/CristianBrunone/ListaDeGames/images/rotas8.PNG)
+
+
 
 ## Exemplo de Uso
 
