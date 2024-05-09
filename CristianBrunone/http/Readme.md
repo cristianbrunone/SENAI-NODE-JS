@@ -12,7 +12,7 @@ Este é um projeto de exemplo de uma API simples de gerenciamento de carros, con
 
 Certifique-se de ter o Node.js instalado em sua máquina.
 
-##Atividade Criar seu Array de lista de carros personalizados com no
+-Atividade Criar seu Array de lista de carros personalizados com no
 mínimo 6 modelos com nome, preço e marca e depois
 adicionar mais 3 modelos diferentes dos que já existem e
 realizar edição em 2 modelos e exclusão de pelo menos 2
