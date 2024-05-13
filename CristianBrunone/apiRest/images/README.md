@@ -38,7 +38,6 @@ Você pode usar o ThunderClient ou qualquer outra ferramenta de teste de API par
 
 ![Captura de Tela Principal](https://github.com/cristianbrunone/SENAI-NODE-JS/blob/main/CristianBrunone/apiRest/images/busca4.PNG)
 
-![Captura de Tela Principal](https://github.com/cristianbrunone/SENAI-NODE-JS/blob/main/CristianBrunone/apiRest/images/busca5.PNG)
 
 ### Testando Erros
 
