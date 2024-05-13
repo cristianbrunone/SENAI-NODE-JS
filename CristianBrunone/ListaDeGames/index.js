@@ -8,7 +8,7 @@ let games = [
     {title: "COD", studio: "Activision", price: 200},
     {title: "Minecraft", studio: "Mojang", price: 80},
     {title: "Halo", studio: "Microsoft", price: 90},
-    {tilte: "The Witcher 3: Wild Hunt", studio: "CD Projekt Red", price: 60},
+    {title: "The Witcher 3: Wild Hunt", studio: "CD Projekt Red", price: 60},
     {title: "Assassin's Creed Valhalla", studio: "Ubisoft", price: 50},
     {title: "Red Dead Redemption2", studio: "EA Sports", price: 60},
     {title: "Overwatch", studio: "Blizzard", price: 40},
@@ -22,6 +22,29 @@ let games = [
 
 ]
 
+app.get("/buscar/:titulo", (req, res) => {
+    const { titulo } = req.params;
+    const jogoEncontrado = games.find(jogo => jogo.title.toLowerCase() === titulo.toLowerCase());
+
+    if (jogoEncontrado) {
+        res.json(jogoEncontrado);
+    } else {
+        res.status(404).json({ erro: "Jogo não encontrado" });
+    }
+});
+
+app.get("/jogos/:index", (req, res) => {
+    const { index } = req.params;
+    const jogo = games[index];
+
+    if (jogo) {
+        res.json(jogo);
+    } else {
+        res.status(404).json({ erro: "Jogo não encontrado" });
+    }
+});
+
+
 const PORT = 3080; 
 app.listen(PORT, () => {
     console.log(`Servidor funcionando en el puerto ${PORT}`);
@@ -29,8 +52,15 @@ app.listen(PORT, () => {
 
 app.use(express.json());
 
-app.get("/", (req, res) => {
-    res.json(games);
+app.get("/games", (req, res) => {
+    const nomeGame = req.query.busca;
+    const jogos = nomeGame ? buscarJogosPorNome(nomeGame) : games; // Supondo que você tenha uma função buscarJogosPorNome implementada corretamente
+
+    if (jogos.length > 0) {
+        res.json(jogos);
+    } else {
+        res.status(404).json({ erro: "Nenhum jogo encontrado"});
+    }
 });
 
 app.post("/novogame", (req, res) => {
