@@ -27,12 +27,13 @@ app.get('/', (req,res)=>{
 });
 
 app.get('/deletar/:id', (req,res)=> {
-    tasks = tasks.filter(function(val,index){
-        if(index != req.params.id){
-            return val;
-        }
-    })
-    res.render('index',{tasksList:tasks});
+    const id = parseInt(req.params.id);
+        if(id >= 0 && id < tasks.length){
+            tasks.splice(id, 1);
+//Remove o item do array na posição do ID        
+    }
+    res.redirect('/');
+//Redirecciona de volta para a rota principal '/'
 });
 
 app.listen(5000,()=>{
